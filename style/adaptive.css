@@ -138,6 +138,9 @@
         width: 150px;
         height: 150px;
     }
+    .arrow-down img {
+        height: 70px;
+    }
     .centered {
         font-size: 12px;
         line-height: 16px;
@@ -150,6 +153,17 @@
         width: 700px;
         height: 300px;
     }
+    
+    .slick-dots li {
+        display: none;
+        margin: 0 5px;
+    }
+    .slick-dots li.slick-active,
+    .slick-dots li.slick-active + li,
+    .slick-dots li.slick-active + li + li {
+        display: inline-block;
+    }
+
 }
 
 @media (max-width: 750px) {
