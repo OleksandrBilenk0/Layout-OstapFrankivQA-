@@ -29,6 +29,27 @@
     .about-check {
         margin-top: 20px;
     }
+    .slick-dots li {
+        display: none;
+        margin: 0 5px;
+    }
+    .slick-dots li.slick-active,
+    .slick-dots li.slick-active + li,
+    .slick-dots li.slick-active + li + li,
+    .slick-dots li.slick-active + li + li + li {
+        display: inline-block;
+    }
+    .comandSlider__item img {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .comandSlider__item::before {
+        width: 80%;
+        margin-left: 10%;
+    }
+    /* .tarkikComandSlider {
+        margin-left: 100px;
+    } */
     
 /* skills */
     .circle {
@@ -59,25 +80,17 @@
     .about-check {
         margin-left: -10%;
     }
-    .slick-dots li {
-        display: none;
-        margin: 0 5px;
-    }
-    .slick-dots li.slick-active,
-    .slick-dots li.slick-active + li,
-    .slick-dots li.slick-active + li + li,
-    .slick-dots li.slick-active + li + li + li {
-        display: inline-block;
-    }
+    
     .tarkikComandSlider {
-        padding-left: 130px;
+        padding-left: -100px;
+        /* padding-right: -40px; */
     }
-    .comandSlider__item img {
+    /* .comandSlider__item img {
         width: 80%;
     }
     .comandSlider__item::before {
         width: 80%;
-    }
+    } */
 }
 
 @media (max-width: 850px) {
