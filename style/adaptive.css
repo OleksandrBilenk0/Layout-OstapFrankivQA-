@@ -31,6 +31,9 @@
     .about-check {
         margin-top: 20px;
     }
+    .about-text {
+        margin-left: -20%;
+    }
     /* .about {
         width: 95%;
         height: 990px;
