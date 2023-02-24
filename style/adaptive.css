@@ -50,14 +50,14 @@
     }
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .about-check {
         width: 530px;
         height: 200px;
     }
-}
+} */
 
-@media (max-width: 960px) {
+@media (max-width: 1024px) {
     .about-check {
         width: 480px;
         height: 200px;
