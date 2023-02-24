@@ -58,7 +58,11 @@
 } */
 
 @media (max-width: 1024px) {
-    .about-check {
+    .about-info {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    /* .about-check {
         width: 480px;
         height: 200px;
     }
@@ -90,5 +94,5 @@
         font-family: 'Montserrat';
         font-size: 20px;
         line-height: 22px;
-    }
+    } */
 }
