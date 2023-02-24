@@ -21,6 +21,7 @@
     .about-info {
         flex-direction: column;
         margin-top: 40px;
+        align-items: center;
     }
     .user {
         margin-bottom: 40px;
@@ -31,9 +32,9 @@
     .about-check {
         margin-top: 20px;
     }
-    .about-text {
+    /* .about-text {
         margin-left: -20%;
-    }
+    } */
     /* .about {
         width: 95%;
         height: 990px;
@@ -72,10 +73,31 @@
 } */
 
 @media (max-width: 1024px) {
-    .about-info {
-        flex-direction: column;
+    .about {
+        height: 1519px;
         margin-top: 40px;
     }
+    .about-epam {
+        display: none;
+    }
+    .epam-adaptive {
+        height: 649px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .epam-adaptive p {
+        font-size: 20px;
+    }
+    .about-check {
+        margin-left: -10%;
+    }
+    /* .about-info {
+        flex-direction: column;
+        margin-top: 40px;
+    } */
     /* .about-check {
         width: 480px;
         height: 200px;
@@ -109,4 +131,30 @@
         font-size: 20px;
         line-height: 22px;
     } */
+}
+
+@media (max-width: 850px) {
+    .container img.circle {
+        width: 150px;
+        height: 150px;
+    }
+    .centered {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .centered h4{
+        font-size: 36px;
+        line-height: 34px;
+    }
+    .about-check {
+        width: 700px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 750px) {
+    .about-check {
+        width: 600px;
+        height: 300px;
+    }
 }

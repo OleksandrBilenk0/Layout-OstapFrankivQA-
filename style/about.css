@@ -76,6 +76,10 @@
     align-items: center;
 }
 
+.epam-adaptive {
+    display: none;
+}
+
 .left-text {
     width: 446px;
     height: 455px;
