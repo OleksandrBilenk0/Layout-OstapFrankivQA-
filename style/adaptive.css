@@ -29,14 +29,37 @@
     .about-check {
         margin-top: 20px;
     }
+    
+    .slick-dots {
+    text-align: center;
+    }
     .slick-dots li {
         display: none;
-        margin: 0 5px;
+    margin: 0 5px;
     }
     .slick-dots li.slick-active,
     .slick-dots li.slick-active + li,
-    .slick-dots li.slick-active + li + li,
-    .slick-dots li.slick-active + li + li + li {
+    .slick-dots li.slick-active + li + li {
+        display: inline-block;
+    }
+
+    .slick-dots li:nth-last-child(1),
+    .slick-dots li:nth-last-child(2),
+    .slick-dots li:nth-last-child(3) {
+        display: inline-block;
+    }
+
+    .slick-dots li.slick-active ~ li:nth-last-child(1),
+    .slick-dots li.slick-active ~ li:nth-last-child(2),
+    .slick-dots li.slick-active ~ li:nth-last-child(3) {
+        display: none;
+    }
+    .slick-dots li.slick-active + li + li:nth-last-child(3),
+    .slick-dots li.slick-active + li + li:nth-last-child(2),
+    .slick-dots li.slick-active + li + li:nth-last-child(1),
+    .slick-dots li.slick-active + li:nth-last-child(3),
+    .slick-dots li.slick-active + li:nth-last-child(2),
+    .slick-dots li.slick-active + li:nth-last-child(1){
         display: inline-block;
     }
     .comandSlider__item img {
