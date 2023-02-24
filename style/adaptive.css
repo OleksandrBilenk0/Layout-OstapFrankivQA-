@@ -1,0 +1,41 @@
+@media (max-width: 1380px) {
+    .header-title {
+        font-size: 90px;
+        line-height: 91px;
+    }
+    /* .container img.circle {
+        width: 200px;
+    } */
+
+    .header-info {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 1260px) {
+    .about {
+        width: 80%;
+        height: 990px;
+    }
+    .user-photo {
+        width: 300px;
+    }
+    .left-text {
+        width: 350px;
+    }
+    .right-text {
+        width: 300px;
+    }
+    .about-check {
+        width: 650px;
+    }
+    .about-footer {
+        width: 600px;
+    }
+/* skills */
+    .circle {
+        width: 200px;
+        height: 200px;
+    }
+}
