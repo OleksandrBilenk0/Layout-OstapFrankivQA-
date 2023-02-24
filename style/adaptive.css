@@ -22,13 +22,20 @@
         flex-direction: column;
         margin-top: 40px;
     }
-    /* .about {
-        width: 95%;
-        height: 990px;
+    .user {
+        margin-bottom: 40px;
     }
     .user-photo {
         width: 200px;
     }
+    .about-check {
+        margin-top: 20px;
+    }
+    /* .about {
+        width: 95%;
+        height: 990px;
+    }
+    
     .about-epam {
         width: 600px;
         height: 455px;
