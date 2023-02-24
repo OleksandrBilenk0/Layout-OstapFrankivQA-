@@ -18,7 +18,11 @@
         padding-left: 5%;
     }
     /* about */
-    .about {
+    .about-info {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    /* .about {
         width: 95%;
         height: 990px;
     }
@@ -42,7 +46,7 @@
     .about-footer {
         width: 600px;
         margin-top: 60px;
-    }
+    } */
 /* skills */
     .circle {
         width: 200px;
