@@ -1,0 +1,48 @@
+.skills {
+    width: 83%;
+    height: 1034px;
+    margin-top: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-items {
+    width: 100%;
+    height: 849px;
+    margin-top: 120px;
+}
+
+.skills-circles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience {
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+
+.experience-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 51px;
+}
+
+.experience-item {
+    width: 340px;
+    height: 140px;
+}

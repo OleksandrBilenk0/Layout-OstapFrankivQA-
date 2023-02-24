@@ -1,0 +1,182 @@
+.projects {
+    width: 90%;
+    height: 1185px;
+    margin-top: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects h2 {
+    font-family: 'Kharkiv Tone', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 65px;
+    background-color: #2AA5A0;
+    background-image: linear-gradient(99.73deg, #9747FF 0.42%, #5A77F6 109.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-top: -100px;
+}
+
+.tarkikComandSlider {
+ width: 1100px;
+ height: auto;
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: 50px;
+ padding-right: 50px;
+ position: relative;
+}
+
+.slick-slider {
+    width: 100%;
+}
+
+.slick-track {
+    margin-top: 100px;
+    height: 1000px;
+}
+.slick-dots {
+  
+ display: flex !important;
+ justify-content: space-around;
+ padding: 0;
+ list-style: none;
+ text-align: center;
+}
+
+.slick-dots li {
+ position: relative;
+ display: inline-block;
+ width: 6px;
+ height: 6px;
+ margin: 0 5px;
+ padding: 0;
+ cursor: pointer;
+}
+.slick-dots li button {
+ display: none;
+}
+.slick-dots li:before {
+ top: 1px;
+ transition: all .5s;
+ content: '';
+ width: 35px;
+ height: 35px;
+ position: absolute;
+  background-image: url(../images/projects/Ellipse\ 9.png);
+
+}
+.slick-dots li.slick-active:before {
+ top: 0;
+ width: 36px;
+ height: 36px;
+  background-image: url(../images/projects/Ellipse\ 6.png);
+
+}
+
+.slick-prev {
+ left: 0;
+ transform: rotate(180deg);
+}
+.slick-next {
+ right: 0;
+}
+.slick-arrow {
+ top: 50%;
+ height: 90px;
+ width: 50px;
+ margin-top: -13px;
+ position: absolute;
+ font-size: 0;
+ cursor: pointer;
+ background-color: transparent;
+ border: none;
+ background-image: url(../images/projects/right.png);
+ background-repeat: no-repeat;
+}
+
+.comandSlider__item {
+ cursor: pointer;
+ position: relative;
+ margin: 0 10px;
+ padding: 0px;
+height: 845px;
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: space-between;
+ 
+}
+
+.comandSlider__item a {
+    position: absolute;
+    font-family: 'Goldman';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    background: linear-gradient(99.73deg, #9747FF 0.42%, #5A77F6 109.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top: -50px;
+    margin-left: -30px;
+}
+
+.comandSlider__item::before {
+    content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 25px; 
+  padding: 5px; 
+  background:linear-gradient(90deg,#9747FF, #5A77F6); 
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+    mask-composite: exclude; 
+}
+.comandSlider__item:hover {
+ box-shadow: inset 141px 129px 200px rgba(0, 0, 0, 0.25);
+}
+.comandSlider__item_name {
+ text-transform: uppercase;
+ font-weight: 700;
+ font-size: 16px;
+ color: #3eaef2;
+ margin: 0;
+ margin-bottom: 7px;
+}
+.comandSlider__item_status {
+ margin: 0;
+ color: #fff;
+ font-size: 12px;
+ margin-bottom: 80px;
+}
+.comandSlider__item_sendMail {
+ width: 25px;
+ height: 20px;
+ position: absolute;
+ background-image: url(https://tarkikromanski.github.io/files/mail-ico.png);
+ top: 34px;
+ right: 30px;
+}
+.comandSlider__item_photo {
+ max-width: 150px;
+ max-height: 150px;
+ margin: auto;
+ margin-bottom: 54px;
+}
+.comandSlider__item_contact {
+ font-size: 12px;
+ color: #fff;
+ margin: 2px;
+}
+.comandSlider__item_contact span {
+ color: #3eaef2;
+ font-weight: 700;
+ margin-right: 5px;
+}

@@ -1,0 +1,52 @@
+.contact {
+    width: 90%;
+    height: 212px;
+    margin-top: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    font-family: 'Kharkiv Tone';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 65px;
+    background: linear-gradient(99.73deg, #9747FF 0.42%, #5A77F6 109.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contact-btn {
+    font-family: 'Goldman';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    text-transform: uppercase;
+    background: linear-gradient(99.73deg, #9747FF 0.42%, #5A77F6 109.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    position: relative;
+    width: 205px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 250px; 
+    padding: 1px; 
+    background:linear-gradient(90deg,#9747FF, #5A77F6); 
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+        mask-composite: exclude; 
+}

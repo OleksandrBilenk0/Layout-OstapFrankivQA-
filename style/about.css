@@ -1,0 +1,129 @@
+.main {
+    width: 100%;
+    height: 5620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about {
+    margin-top: 239px;
+    width: 90%;
+    height: 990px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about h2 {
+    font-family: 'Kharkiv Tone', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 65px;
+    background-color: #2AA5A0;
+    background-image: linear-gradient(99.73deg, #9747FF 0.42%, #5A77F6 109.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-info {
+    width: 100%;
+    height: 805px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 120px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-info p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+}
+
+.user-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.lenguage {
+    width: 224px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+
+.about-text {
+    width: 790px;
+    height: 805px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.about-epam {
+    width: 784px;
+    height: 455px;
+    display: flex;
+    align-items: center;
+}
+
+.left-text {
+    width: 446px;
+    height: 455px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-user {
+    color: #A8A8A8;
+}
+
+b {
+    color: white;
+}
+
+.right-text {
+    width: 338px;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-check {
+    width: 784px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.check {
+    display: flex;
+}
+
+.about-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.footer-check {
+    display: flex;
+    align-items: center;
+}
