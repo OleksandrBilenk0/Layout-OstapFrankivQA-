@@ -3,9 +3,6 @@
         font-size: 90px;
         line-height: 91px;
     }
-    /* .container img.circle {
-        width: 200px;
-    } */
 
     .header-info {
         width: 90%;
@@ -32,45 +29,13 @@
     .about-check {
         margin-top: 20px;
     }
-    /* .about-text {
-        margin-left: -20%;
-    } */
-    /* .about {
-        width: 95%;
-        height: 990px;
-    }
     
-    .about-epam {
-        width: 600px;
-        height: 455px;
-    }
-    .left-text {
-        width: 350px;
-    }
-    .right-text {
-        width: 300px;
-    }
-    .about-check {
-        width: 650px;
-        margin-top: 50px;
-    }
-    .about-footer {
-        width: 600px;
-        margin-top: 60px;
-    } */
 /* skills */
     .circle {
         width: 200px;
         height: 200px;
     }
 }
-
-/* @media (max-width: 1024px) {
-    .about-check {
-        width: 530px;
-        height: 200px;
-    }
-} */
 
 @media (max-width: 1024px) {
     .about {
@@ -94,43 +59,25 @@
     .about-check {
         margin-left: -10%;
     }
-    /* .about-info {
-        flex-direction: column;
-        margin-top: 40px;
-    } */
-    /* .about-check {
-        width: 480px;
-        height: 200px;
+    .slick-dots li {
+        display: none;
+        margin: 0 5px;
     }
-    .about-footer {
-        width: 550px;
+    .slick-dots li.slick-active,
+    .slick-dots li.slick-active + li,
+    .slick-dots li.slick-active + li + li,
+    .slick-dots li.slick-active + li + li + li {
+        display: inline-block;
     }
-    .footer-check p {
-        font-size: 20px;
-        line-height: 22px;
+    .tarkikComandSlider {
+        padding-left: 130px;
     }
-    .check p {
-        font-size: 20px;
-        line-height: 22px;
+    .comandSlider__item img {
+        width: 80%;
     }
-    .right-text p {
-        font-size: 20px;
-        line-height: 22px;
-        justify-content: space-around;
+    .comandSlider__item::before {
+        width: 80%;
     }
-    .left-text {
-        width: 340px;
-    }
-    .right-text {
-        width: 230px;
-        height: 330px;
-        margin-top: -10%;
-    }
-    .left-text p {
-        font-family: 'Montserrat';
-        font-size: 20px;
-        line-height: 22px;
-    } */
 }
 
 @media (max-width: 850px) {
@@ -160,7 +107,8 @@
     }
     .slick-dots li.slick-active,
     .slick-dots li.slick-active + li,
-    .slick-dots li.slick-active + li + li {
+    .slick-dots li.slick-active + li + li,
+    .slick-dots li.slick-active + li + li + li {
         display: inline-block;
     }
 
