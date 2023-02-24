@@ -62,12 +62,11 @@
 }
 
 .about-text {
-    width: 30%;
+    width: 80%;
     height: 805px;
     display: flex;
     flex-direction: column;
     color: white;
-
 }
 
 .about-epam {
