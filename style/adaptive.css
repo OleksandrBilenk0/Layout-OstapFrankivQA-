@@ -14,12 +14,20 @@
 }
 
 @media (max-width: 1260px) {
+    .header {
+        padding-left: 5%;
+    }
+    /* about */
     .about {
-        width: 80%;
+        width: 95%;
         height: 990px;
     }
     .user-photo {
         width: 200px;
+    }
+    .about-epam {
+        width: 600px;
+        height: 455px;
     }
     .left-text {
         width: 350px;
@@ -38,4 +46,11 @@
         width: 200px;
         height: 200px;
     }
+}
+
+@media (max-width: 1024px) {
+    .about-check {
+    width: 580px;
+    height: 200px;
+}
 }
