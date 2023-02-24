@@ -37,9 +37,11 @@
     }
     .about-check {
         width: 650px;
+        margin-top: 50px;
     }
     .about-footer {
         width: 600px;
+        margin-top: 60px;
     }
 /* skills */
     .circle {
@@ -53,5 +55,40 @@
         width: 530px;
         height: 200px;
     }
-.about-epam {}
+}
+
+@media (max-width: 960px) {
+    .about-check {
+        width: 480px;
+        height: 200px;
+    }
+    .about-footer {
+        width: 550px;
+    }
+    .footer-check p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .check p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .right-text p {
+        font-size: 20px;
+        line-height: 22px;
+        justify-content: space-around;
+    }
+    .left-text {
+        width: 340px;
+    }
+    .right-text {
+        width: 230px;
+        height: 330px;
+        margin-top: -10%;
+    }
+    .left-text p {
+        font-family: 'Montserrat';
+        font-size: 20px;
+        line-height: 22px;
+    }
 }
