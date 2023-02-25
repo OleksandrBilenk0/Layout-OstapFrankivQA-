@@ -35,10 +35,26 @@
     height: 560px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .tools-image {
     display: flex;
     justify-content: space-between;
+}
+
+.mobile-images {
+    display: none;
+}
+
+img.bugherd-mobile {
+    display: none;
+}
+
+img.azure-mobile{
+    display: none;
+}
+
+img.figma-mobile{
+    display: none;
 }
