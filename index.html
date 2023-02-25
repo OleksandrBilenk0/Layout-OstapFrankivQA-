@@ -10,10 +10,11 @@
     <link href="https://fonts.cdnfonts.com/css/kharkiv-tone" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
-
+<!-- reset -->
     <link rel="stylesheet" href="./style/reset.css">
 <!-- style -->
     <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/burger.css">
     <link rel="stylesheet" href="./style/about.css">
     <link rel="stylesheet" href="./style/skills.css">
     <link rel="stylesheet" href="./style/projects.css">
@@ -26,7 +27,7 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- Header -->
+<!-- Header -->
     <header class="header">
         <div class="header-nav">
             <div class="nav-left">
@@ -43,29 +44,44 @@
                 </div>
             </div>
         </div>
-
+<!-- burger menu -->
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class="menu__box">
+                <li><a class="menu__item" href="#">About ME</a></li>
+                <li><a class="menu__item" href="#">Recent Project</a></li>
+                <li><a class="menu__item" href="#">MY SKILLS</a></li>
+                <li><a class="menu__item" href="#">Our Tools</a></li>
+            </ul>
+        </div>
+<!-- header info -->
         <div class="header-info">
             <h1 class="header-title">WORK IS THE <br> BEST WAY TO LOVE LIFE</h1>
             <div class="statistyc">
-                <div class="container">
-                    <img class="circle" src="./images/header/Group 25.png" alt="">
-                    <div class="centered">
-                        <h4>1</h4>
-                        <p>years <br> of experience</p>
+                <div class="wrapper">
+                    <div class="container">
+                        <img class="circle" src="./images/header/Group 25.png" alt="">
+                        <div class="centered">
+                            <h4>1</h4>
+                            <p>years <br> of experience</p>
+                        </div>
                     </div>
-                </div>
-                <div class="container">
-                    <img class="circle" src="./images/header/Group 26.png" alt="">
-                    <div class="centered">
-                        <h4>1</h4>
-                        <p>areas <br> of work</p>
+                    <div class="container">
+                        <img class="circle" src="./images/header/Group 26.png" alt="">
+                        <div class="centered">
+                            <h4>1</h4>
+                            <p>areas <br> of work</p>
+                        </div>
                     </div>
-                </div>
-                <div class="container">
-                    <img class="circle" src="./images/header/Group 27.png" alt="">
-                    <div class="centered">
-                        <h4>1</h4>
-                        <p>completed <br> projects</p>
+                    <div class="container">
+                        <img class="circle" src="./images/header/Group 27.png" alt="">
+                        <div class="centered">
+                            <h4>1</h4>
+                            <p>completed <br> projects</p>
+                        </div>
                     </div>
                 </div>
                 <div class="arrow-down">
@@ -74,9 +90,9 @@
             </div>
         </div>
     </header>
-    <!-- End header -->
+<!-- End header -->
 
-    <!-- Main -->
+<!-- Main -->
     <main class="main">
         <!-- Aboutezw1e -->
         <div class="about">
@@ -124,29 +140,33 @@
                         </div>
                     </section>
                     <section class="about-footer">
-                        <div class="footer-check">
-                            <img src="./images/about/check 2.png" alt="check">
-                            <p>AWS</p>
+                        <div class="mobile-top">
+                            <div class="footer-check">
+                                <img src="./images/about/check 2.png" alt="check">
+                                <p>AWS</p>
+                            </div>
+                            <div class="footer-check">
+                                <img src="./images/about/check 2.png" alt="check">
+                                <p>Salesforce</p>
+                            </div>
                         </div>
-                        <div class="footer-check">
-                            <img src="./images/about/check 2.png" alt="check">
-                            <p>Salesforce</p>
-                        </div>
-                        <div class="footer-check">
-                            <img src="./images/about/check 2.png" alt="check">
-                            <p>Azure</p>
-                        </div>
-                        <div class="footer-check">
-                            <img src="./images/about/check 2.png" alt="check">
-                            <p>Tableau</p>
+                        <div class="mobile-bottom">
+                            <div class="footer-check">
+                                <img src="./images/about/check 2.png" alt="check">
+                                <p>Azure</p>
+                            </div>
+                            <div class="footer-check">
+                                <img src="./images/about/check 2.png" alt="check">
+                                <p>Tableau</p>
+                            </div>
                         </div>
                     </section>
                 </div>
             </section>
         </div>
-        <!-- End about -->
+<!-- End about -->
 
-        <!-- Skills -->
+<!-- Skills -->
         <div class="skills">
             <h2>MY SKILLS</h2>
             <div class="skills-items">
@@ -171,7 +191,7 @@
                         </div>
                         <div class="experience-item">
                             <img src="./images/skills/icon4.png" alt="icon">
-                            <p>Functional Testing/ <br> Regression/Acceptance Testing</p>
+                            <p>Functional Testing/ <br> Regression/ Acceptance Testing</p>
                         </div>
                         
                     </div>
@@ -197,81 +217,93 @@
                 </section>
             </div>
         </div>
-        <!-- End skills -->
+<!-- End skills -->
 
-        <!-- Projects -->
+<!-- Projects -->
         <div class="projects">
             <h2>RECENT PROJECTS</h2>
             <div class="tarkikComandSlider">
                 <article class="comandSlider__item">
-                    <img src="./images/projects/testproject.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/testproject.png" width="100%" height="100%" alt="">
+                    <img class="mobile-img" src="./images/projects/1mobile.png" width="100%" height="100%" alt="">
                     <a href="#">more</a>
                 </article>
-
+            
                 <article class="comandSlider__item">
-                    <img src="./images/projects/pixel perfect.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/pixel perfect.png" width="100%" height="100%" alt="">
+                    <img class="mobile-img" src="./images/projects/2mobile.png" width="100%" height="100%" alt="">
                     <a href="#">more</a>
                 </article>
                     
                 <article class="comandSlider__item">
-                    <img src="./images/projects/crypto.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/crypto.png" width="100%" height="100%" alt="">
+                    <img class="mobile-img" src="./images/projects/3mobile.png" width="100%" height="100%" alt="">
                     <a href="#">more</a>
                 </article>
                         
                 <article class="comandSlider__item">
-                    <img src="./images/projects/casino.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/casino.png" width="100%" height="100%" alt="">
+                    <img class="mobile-img" src="./images/projects/4mobile.png" width="100%" height="100%" alt="">
                     <a href="#">more</a>
                 </article>
                     
                 <article class="comandSlider__item">
-                    <img src="./images/projects/megogo.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/megogo.png" width="100%" height="100%" alt="">
+                    <img class="mobile-img" src="./images/projects/1mobile.png" width="100%" height="100%" alt="">
                     <a href="#">more</a>
                 </article>
 
                 <article class="comandSlider__item">
-                    <img src="./images/projects/sql.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/sql.png" width="100%" height="100%" alt="">
+                    <img class="mobile-img" src="./images/projects/2mobile.png" width="100%" height="100%" alt="">
                     <a href="#">more</a>
                 </article>
 
                 <article class="comandSlider__item">
-                    <img src="./images/projects/usability.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/usability.png" width="100%" height="100%" alt="">
+                    <img class="mobile-img" src="./images/projects/3mobile.png" width="100%" height="100%" alt="">
                     <a href="#">more</a>
                 </article>
 
                 <article class="comandSlider__item">
-                    <img src="./images/projects/api.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/api.png" width="100%" height="100%" alt="">
+                    <img class="mobile-img" src="./images/projects/4mobile.png" width="100%" height="100%" alt="">
                     <a href="#">more</a>
                 </article>
 
                 <article class="comandSlider__item">
-                    <img src="./images/projects/commercial.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/commercial.png" width="100%" height="100%" alt="">
+                    <img class="mobile-img" src="./images/projects/1mobile.png" width="100%" height="100%" alt="">
                     <a href="#">more</a>
                 </article>
 
                 <article class="comandSlider__item">
-                    <img src="./images/projects/mobile.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/mobile.png" width="100%" height="100%" alt="">
+                    <img class="mobile-img" src="./images/projects/2mobile.png" width="100%" height="100%" alt="">
                     <a href="#">more</a>
                 </article>
 
                 <article class="comandSlider__item">
-                    <img src="./images/projects/security.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/security.png" width="100%" height="100%" alt="">
+                    <img class="mobile-img" src="./images/projects/3mobile.png" width="100%" height="100%" alt="">
                     <a href="#">more</a>
                 </article>
 
                 <article class="comandSlider__item">
-                    <img src="./images/projects/ios.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/ios.png" width="100%" height="100%" alt="">
+                    <img class="mobile-img" src="./images/projects/4mobile.png" width="100%" height="100%" alt="">
                     <a href="#">more</a>
                 </article>
             </div>
         </div>
-        <!-- End projects -->
+<!-- End projects -->
 
         <div class="contact">
             <h2>WANT TO GET ADVICE ON <br> YOUR PROJECT?</h2>
             <a class="contact-btn" href="https://www.upwork.com/freelancers/~012092c7ad53e91f75">CONTACT ME</a>
         </div>
 
-        <!-- Tools -->
+<!-- Tools -->
         <div class="tools">
             <h2>TOOLS USED</h2>
             <p>We use a wide range of technologies and tools. If you do not <br> know how best to implement your project - contact us and we <br> will be glad to consult you.</p>
@@ -310,9 +342,9 @@
         </div>
         <!-- End tools -->
     </main>
-    <!-- End main -->
+<!-- End main -->
 
-    <!-- Footer -->
+<!-- Footer -->
     <footer class="footer">
         <h2>Rostyslav <br> Soroka</h2>
         <div class="footer-nav">

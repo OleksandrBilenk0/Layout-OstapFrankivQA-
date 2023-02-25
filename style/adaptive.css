@@ -1,3 +1,6 @@
+.hamburger-menu {
+    display: none !important;
+}
 @media (max-width: 1380px) {
     .header-title {
         font-size: 90px;
@@ -7,7 +10,6 @@
     .header-info {
         width: 90%;
     }
-
 }
 
 @media (max-width: 1260px) {
@@ -106,14 +108,21 @@
     
     .tarkikComandSlider {
         padding-left: -100px;
-        /* padding-right: -40px; */
     }
-    /* .comandSlider__item img {
-        width: 80%;
+    
+}
+
+@media (max-width: 900px) {
+    .projects h2 {
+        font-size: 50px;
+        line-height: 55px;
     }
-    .comandSlider__item::before {
-        width: 80%;
-    } */
+    .comandSlider__item img.slider-img {
+        display: none;
+    }
+    .comandSlider__item img.mobile-img {
+        display: flex;
+    }
 }
 
 @media (max-width: 850px) {
@@ -136,23 +145,189 @@
         width: 700px;
         height: 300px;
     }
-    
-    .slick-dots li {
-        display: none;
-        margin: 0 5px;
+
+    .about-footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
     }
-    .slick-dots li.slick-active,
-    .slick-dots li.slick-active + li,
-    .slick-dots li.slick-active + li + li,
-    .slick-dots li.slick-active + li + li + li {
-        display: inline-block;
+
+    .mobile-top {
+        height: 150px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .mobile-bottom {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer-check p {
+        margin-left: 50px;
+    }
+
+    .skills {
+        width: 83%;
+        height: 1034px;
+        margin-top: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 }
 
 @media (max-width: 750px) {
+    /* header */
+    .nav-right {
+        display: none;
+    }
+
+    .wrapper {
+        width: 85%;
+        display: inline;
+    }
+
+    .container {
+        justify-content: flex-start;
+        margin-left: -40%;
+        margin-top: 5%;
+    }
+    .header-title {
+        font-family: 'Kharkiv Tone';
+        font-size: 34.56px;
+        line-height: 35px;
+        text-align: center;
+        margin-bottom: 25%;
+    }
+    .statistyc {
+        width: 100%;
+        height: 770px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+    }
+    .centered {
+        text-align: center;
+
+    }
+
+    .header-info {
+        width: 100%;
+        height: 629px;
+        margin-top: 238px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .statistyc {
+        width: 80%;
+        height: 218px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+    /* End header */
+
+    /* Burger menu*/
+    .hamburger-menu {
+        display: flex !important;
+    }
+    
+    /* About */
+    .about-text {
+        width: 80%;
+        height: 1000px;
+        align-items: center;
+    }
     .about-check {
-        width: 600px;
-        height: 300px;
+        width: 400px;
+        height: 350px;
+    }
+    /* .about-footer {
+        display: flex;
+        
+        justify-content: space-between;
+        margin-top: 40px;
+    } */
+
+    /* Skills */
+    .skills {
+        margin-top: 500px;
+    }
+    .main {
+        width: 100%;
+        height: 6500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills-circles {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .experience {
+        width: 80%;
+        position: absolute;
+        display: flex;
+        flex-direction: unset;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .experience-item {
+        width: 160px;
+        height: 200px;
+        align-items: center;
+    }
+    .experience-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .experience-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .projects {
+        margin-top: 1000px;
+        
+    }
+
+    /* Contacts */
+    .contact {
+        width: 90%;
+        height: 400px;
+        margin-top: 280px;
+
+    }
+
+    .contact-btn {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 550px) {
+    .contact {
+        width: 90%;
+        height: 400px;
+        margin-top: 280px;
+        font-size: 32px;
+        line-height: 32px;
     }
 }

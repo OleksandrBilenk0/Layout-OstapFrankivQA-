@@ -82,10 +82,17 @@ body {
     color: white;
 }
 
+.wrapper {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .container {
     position: relative;
     text-align: center;
     color: white;
+    z-index: 0;
 }
 
 .centered {
