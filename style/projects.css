@@ -1,3 +1,13 @@
+.main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    overflow-x: hidden;
+}
+
 .projects {
     width: 90%;
     height: 1185px;
@@ -7,7 +17,7 @@
     align-items: center;
 }
 
-.projects h2 {
+.projects_title {
     font-family: 'Kharkiv Tone', sans-serif;
     font-weight: 400;
     font-size: 64px;
@@ -17,7 +27,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
-    margin-top: -100px;
+    text-align: center;
 }
 
 .tarkikComandSlider {
@@ -76,11 +86,11 @@
 }
 
 .slick-prev {
-    left: 0;
+    left: 10px;
     transform: rotate(180deg);
 }
 .slick-next {
-    right: 0;
+    right: 10px;
 }
 .slick-arrow {
     top: 50%;
@@ -99,8 +109,8 @@
 .comandSlider__item {
     cursor: pointer;
     position: relative;
-    margin: 0 10px;
-    padding: 0px;
+    margin: 0;
+    padding: 0px 0px;
     height: 845px;
     display: flex;
     flex-direction: column;
@@ -108,8 +118,27 @@
     justify-content: space-between;
 }
 
+.slick-slider .comandSlider__item{
+    cursor: pointer;
+    margin: 0;
+    padding: 40px 80px 0px;
+    height: 845px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
 .comandSlider__item a {
-    position: absolute;
+    position: relative;
+    width: 90%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
     font-family: 'Goldman';
     font-weight: 400;
     font-size: 18px;
@@ -119,13 +148,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin-top: -50px;
-    margin-left: -30px;
 }
 
 .comandSlider__item::before {
     content: "";
     position: absolute;
+    height: 865px;
     inset: 0;
     border-radius: 25px; 
     padding: 5px; 
@@ -135,13 +163,44 @@
         linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
         mask-composite: exclude; 
+        margin: 0px 40px;
 }
 
 .comandSlider__item:hover {
     box-shadow: inset 141px 129px 200px rgba(0, 0, 0, 0.25);
 }
 
-.comandSlider__item img.mobile-img{
-    display: none;
+.comandSlider__item h3 {
+    width: 90%;
+    font-family: 'Kharkiv Tone';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 5%;
 }
 
+.slider-text {
+    width: 90%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A8A8A8;
+}
+.slider-text b{
+    color: white;
+}
+
+.slider-img {
+    width: 80%;
+}

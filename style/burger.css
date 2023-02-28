@@ -1,99 +1,125 @@
-.hamburger-menu {
-    display: flex;
-}
-
-/* скрываем чекбокс */
-#menu__toggle {
-  opacity: 0;
-}
-/* стилизуем кнопку */
-.menu__btn {
-  display: flex; /* используем flex для центрирования содержимого */
-  align-items: center;  /* центрируем содержимое кнопки */
-  position: fixed;
-  top: 40px;
-  right: 20px;
-  width: 20px;
-  height: 20px;
+#burger-menu {
   cursor: pointer;
-  z-index: 99;
-}
-/* добавляем "гамбургер" */
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: white;
-}
-.menu__btn > span::before {
-  content: '';
-  top: -8px;
-}
-.menu__btn > span::after {
-  content: '';
-  top: 8px;
-}
-
-
-/* контейнер меню */
-.menu__box {
-  display: block;
+  height: 33px;
+  width: 33px;
+  overflow: visible;
   position: fixed;
-  visibility: hidden;
-  top: 0;
-  right: -100%;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 150px 0;
-  list-style: none;
-  text-align: center;
-  background-color: black;
-  color: white;
-  z-index: 50;
-}
-/* элементы меню */
-.menu__item {
-    display: block;
-    padding-bottom: 40px;
-    font-family: 'Kharkiv Tone';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 16px;
-    text-transform: uppercase;
-    opacity: 0.75;
-}
-.menu__item:hover {
-  background-color: none;
+  z-index: 99;
+  right: 63px;
+  top: 63px;
 }
 
-#menu__toggle:checked ~ .menu__btn > span {
-  transform: rotate(45deg);
+#burger-menu span,
+#burger-menu span:before,
+#burger-menu span:after {
+  display: block;
+  margin-bottom: 6px;
+  width: 33px;
+  height: 4px;
+  background-color: #d2cecd;
+  opacity: 1;
+  position: absolute;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out
 }
-#menu__toggle:checked ~ .menu__btn > span::before {
-  top: 0;
-  transform: rotate(0);
+
+#burger-menu span:before,
+#burger-menu span:after {
+  content: ""
 }
-#menu__toggle:checked ~ .menu__btn > span::after {
-  top: 0;
-  transform: rotate(90deg);
-}
-#menu__toggle:checked ~ .menu__box {
-  visibility: visible;
+
+#burger-menu span {
   right: 0;
+  top: 13px;
+  z-index: 13;
+  width: 33px
 }
 
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-  transition-duration: .25s;
+#burger-menu span:before {
+  left: 0;
+  top: -10px;
+  width: 33px
 }
-.menu__box {
-  transition-duration: .25s;
+
+#burger-menu span:after {
+  left: 0;
+  top: 10px;
+  width: 33px
 }
-.menu__item {
-  transition-duration: .25s;
+
+#burger-menu.close span {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 33px;
+  right: 33px;
+  width: 33px;
+  position: fixed
+}
+
+#burger-menu.close span:before {
+  top: 0;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 33px;
+  position: fixed
+}
+
+#burger-menu.close span:after {
+  top: 0;
+  left: 0;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  opacity: 1;
+  width: 33px;
+  position: fixed
+}
+
+#menu {
+  z-index: 12;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 1;
+  text-align: center;
+  padding-top: 50px;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#menu.overlay {
+  visibility: visible;
+  opacity: 1;
+  background: rgba(0, 0, 0, 1);
+  
+}
+
+#menu li {
+  list-style: none
+}
+
+#menu ul {
+  margin-top: 20px;
+  top: 50%;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#menu a {
+  color: #fff;
+  font-family: "Century Gothic";
+  display: block;
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  background: none
 }

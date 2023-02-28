@@ -21,101 +21,114 @@
     <link rel="stylesheet" href="./style/contact.css">
     <link rel="stylesheet" href="./style/tools.css">
     <link rel="stylesheet" href="./style/footer.css">
-<!-- media -->
+<!-- adaptive -->
     <link rel="stylesheet" href="./style/adaptive.css">
 
     <title>Document</title>
 </head>
 <body>
 <!-- Header -->
-    <header class="header">
-        <div class="header-nav">
-            <div class="nav-left">
-                <p>Rostyslav <br> Soroka</p>
-            </div>
-            <div class="nav-right">
-                <div class="left">
-                    <a href="#">About ME</a>
-                    <a href="#">MY SKILLS</a>                    
+    <a name="header"></a>
+        <header class="header">
+            <div class="header-nav">
+                <div class="nav-left">
+                        <p>Rostyslav Soroka</p>
                 </div>
-                <div class="right">
-                    <a href="#">Recent Project</a>
-                    <a href="#">Our Tools</a>
+                <div class="nav-right">
+                    <div class="nav-right1">
+                        <a href="#about">About ME</a>
+                        <a href="#skills">MY SKILLS</a>                 
+                    </div>
+                    <div class="nav-right2">
+                        <a href="#projects">Recent Project</a> 
+                        <a href="#tools">Our Tools</a>
+                    </div>
                 </div>
             </div>
-        </div>
-<!-- burger menu -->
-        <div class="hamburger-menu">
-            <input id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
+    <!-- burger menu -->
+            <div id="burger-menu" class="burger">
                 <span></span>
-            </label>
-            <ul class="menu__box">
-                <li><a class="menu__item" href="#">About ME</a></li>
-                <li><a class="menu__item" href="#">Recent Project</a></li>
-                <li><a class="menu__item" href="#">MY SKILLS</a></li>
-                <li><a class="menu__item" href="#">Our Tools</a></li>
-            </ul>
-        </div>
-<!-- header info -->
-        <div class="header-info">
-            <h1 class="header-title">WORK IS THE <br> BEST WAY TO LOVE LIFE</h1>
-            <div class="statistyc">
-                <div class="wrapper">
-                    <div class="container">
-                        <img class="circle" src="./images/header/Group 25.png" alt="">
-                        <div class="centered">
-                            <h4>1</h4>
-                            <p>years <br> of experience</p>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <img class="circle" src="./images/header/Group 26.png" alt="">
-                        <div class="centered">
-                            <h4>1</h4>
-                            <p>areas <br> of work</p>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <img class="circle" src="./images/header/Group 27.png" alt="">
-                        <div class="centered">
-                            <h4>1</h4>
-                            <p>completed <br> projects</p>
-                        </div>
-                    </div>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#about" class="menu__item">About ME</a></li>
+                    <li><a href="#projects" class="menu__item">Recent Project</a></li>
+                    <li><a href="#skills" class="menu__item">MY SKILLS</a></li>
+                    <li><a href="#tools" class="menu__item">Our Tools</a></li>
+                </ul>
+            </div>
+    <!-- header info -->
+            <div class="header-info">
+                <div class="header-title">
+                    <h1>WORK IS THE BEST WAY TO LOVE LIFE</h1>
                 </div>
-                <div class="arrow-down">
-                    <a href="#"><img src="./images/header/scroll.png" alt="scroll-down"></a>
+
+                <div class="statistyc">
+                    <div class="wrapper">
+                        <div class="container">
+                            <img class="circle" src="./images/header/Group 25.png" alt="">
+                            <div class="centered">
+                                <h4>1</h4>
+                                <p>years <br> of experience</p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <img class="circle" src="./images/header/Group 26.png" alt="">
+                            <div class="centered">
+                                <h4>1</h4>
+                                <p>areas <br> of work</p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <img class="circle" src="./images/header/Group 27.png" alt="">
+                            <div class="centered">
+                                <h4>1</h4>
+                                <p>completed <br> projects</p>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
-        </div>
-    </header>
+            <div class="arrow-down">
+                <button><a href="#footer"><img src="./images/arrow.png" width="100px" height="100px" alt="arrow up"></a></button>
+            </div>
+        </header> 
+    </a>
 <!-- End header -->
 
 <!-- Main -->
     <main class="main">
-        <!-- Aboutezw1e -->
+<!-- About -->
         <div class="about">
-            <h2>ABOUT ME</h2>
+            <div class="about-title">
+                <a name="about"><h2>ABOUT ME</h2></a>
+            </div>
             <section class="about-info">
                 <div class="user">
                     <img class="user-photo" src="./images/about/photo.png" width="350px" alt="user-photo">
                     <div class="lenguage">
-                        <p>Lenguage</p>
-                        <img src="./images/about/UA.png" alt="UA">
-                        <img src="./images/about/Mask group.png" alt="">
+                        <p>Lenguage:</p>
+                        <div class="lenguage-flag">
+                            <img src="./images/about/UA.png" alt="UA">
+                            <img src="./images/about/Mask group.png" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="about-text">
-                    <section class="about-epam">
-                        <div class="left-text">
-                            <p class="about-user">Hi! My name is <b>Rostyslav Soroka</b>, 27 years I'm a Ukrainian <b>QA Senior Engineer with 7+ years of experience</b> (worked in of the biggest company in Ukraine <b>Epam</b>). </p>
-                            <img src="./images/about/Vectary texture.png" width="156px" alt="">
-                            <p>Employment history: <br> Senior QA | May 2017 - January 2023 <br> Senior QA</p>
+                    <section class="about-user">
+                        <div class="top-text">
+                            <div class="user-text">
+                                <p>Hi! My name is <b>Rostyslav Soroka</b>, 27 years I'm a Ukrainian <b>QA Senior Engineer with 7+ years of experience</b> (worked in of the biggest company in Ukraine <b>Epam</b>).</p>
+                            </div>
+                            <img src="./images/about/epam.png" width="25%" alt="epam">
                         </div>
-                        <div class="right-text">
-                            <img src="./images/about/epam.png" width="199px" alt="epam">
+                        <div class="middle-text">
+                            <img src="./images/about/Vectary texture.png" width="20%" alt="">
                             <p>I have tested a wide range of desktop, web applications & mobile apps. I’m married on my job. I’m ready to spend all my time on your project.</p>
+                        </div>
+                        <div class="bottom-text">
+                            <p>Employment history: Senior QA | May 2017 - January 2023 Senior QA</p>
                         </div>
                     </section>
                     <section class="epam-adaptive">
@@ -124,7 +137,7 @@
                         <p>I have tested a wide range of desktop, web applications & mobile apps. I’m married on my job. I’m ready to spend all my time on your project.</p>
                         <img src="./images/about/Vectary texture.png" width="156px" alt="">
                         <p>Employment history: <br> Senior QA | May 2017 - January 2023 <br> Senior QA</p>
-                    </section>
+                    </section> 
                     <section class="about-check">
                         <div class="check">
                             <img src="./images/about/check.png" width="47px" height="27px" alt="check">
@@ -132,11 +145,11 @@
                         </div>
                         <div class="check">
                             <img src="./images/about/check.png" width="47px" height="27px" alt="check">
-                            <p>Will build QA flow that makes the testing process faster <br> and cost effective for you</p>
+                            <p>Will build QA flow that makes the testing process faster and cost effective for you</p>
                         </div>
                         <div class="check">
                             <img src="./images/about/check.png" width="47px" height="27px" alt="check">
-                            <p>Ensure delivered product as bug-free as possible so <br> customers are happy</p>
+                            <p>Ensure delivered product as bug-free as possible so customers are happy</p>
                         </div>
                     </section>
                     <section class="about-footer">
@@ -168,7 +181,10 @@
 
 <!-- Skills -->
         <div class="skills">
-            <h2>MY SKILLS</h2>
+            <div class="skills-title">
+                <a name="skills"><h2>MY SKILLS</h2></a>
+            </div>
+            
             <div class="skills-items">
                 <section class="skills-circles">
                     <img class="circle" src="./images/skills/Group 58-1.png" width="300px" height="300px" alt="circle">
@@ -193,7 +209,6 @@
                             <img src="./images/skills/icon4.png" alt="icon">
                             <p>Functional Testing/ <br> Regression/ Acceptance Testing</p>
                         </div>
-                        
                     </div>
                     <div class="experience-bottom">
                         <div class="experience-item">
@@ -212,7 +227,6 @@
                             <img src="./images/skills/icon8.png" alt="icon">
                             <p>Testing Artifacts Test Case / Test Plan / Check List</p>
                         </div>
-
                     </div>
                 </section>
             </div>
@@ -221,122 +235,304 @@
 
 <!-- Projects -->
         <div class="projects">
-            <h2>RECENT PROJECTS</h2>
+            <div class="projects_title">
+                <a name="projects"><h2>RECENT PROJECTS</h2></a>
+            </div>
+            
             <div class="tarkikComandSlider">
                 <article class="comandSlider__item">
-                    <img class="slider-img" src="./images/projects/testproject.png" width="100%" height="100%" alt="">
-                    <img class="mobile-img" src="./images/projects/1mobile.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/Monitor XDR.png" alt="">
+                    <h3>TestProject <br> Agent</h3>
+                    <div class="slider-text">
+                    <p>The project was about testing the TestProject Agent.</p>
+                    </div>
                     <a href="#">more</a>
                 </article>
             
                 <article class="comandSlider__item">
-                    <img class="slider-img" src="./images/projects/pixel perfect.png" width="100%" height="100%" alt="">
-                    <img class="mobile-img" src="./images/projects/2mobile.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/Surface Laptop Studio.png" alt="">
+                    <h3>Pixel-perfect testing (UI testing)</h3>
+                    <div class="slider-text">
+                        <p>
+                            <b>About the project:</b><br> 
+                            Keilhauer - Provoking, iconic, and covetable, Keilhauer is recognized around the world for design excellence.
+                        </p>
+                        <p>
+                            <b>The task was to</b><br>
+                            - match implemented pages pixel-perfect with the provided designs;
+                            - manual testing from functional point of view;
+                            - cover many devices and browsers such as latest iOS Mobile and Tablets; Android Mobile and Tablets; plus major browsers - Chrome, Safari, Mozilla FF, Opera.
+                        </p>
+                        <p>
+                            <b>What was done:</b><br>
+                            - Performed Functional Testing
+                            - Using DevTools, Pixel perfect extension, BugHerd for reporting bugs and other tools compared and tested UI
+                        </p>
+                        <p>
+                            <b>Results:</b><br>
+                            - Millions of users with minimal support issues;
+                            - Pixel-pefect design with no issues or glitches which meets company philosophy.
+
+                        </p>
+
+                    </div>
                     <a href="#">more</a>
                 </article>
                     
                 <article class="comandSlider__item">
-                    <img class="slider-img" src="./images/projects/crypto.png" width="100%" height="100%" alt="">
-                    <img class="mobile-img" src="./images/projects/3mobile.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/PixelBook Go.png" alt="">
+                    <h3>Crypto <br> currency app</h3>
+                    <div class="slider-text">
+                        <p>
+                            Clanz has been designed to be incredibly simple to use. It’s feature-packed, whether you’re new to crypto or a seasoned trader.
+                        </p>
+                        <br>
+                        <p>
+                            Easy on-boarding <br> Pass our security checks, deposit money in your wallet and you’re good to go.
+                        </p>
+                        <br>
+                        <p>
+                            Live chat support <br>Their Australian-based support team is on hand to help you with any questions.
+                        </p>
+                    </div>
                     <a href="#">more</a>
                 </article>
                         
                 <article class="comandSlider__item">
-                    <img class="slider-img" src="./images/projects/casino.png" width="100%" height="100%" alt="">
-                    <img class="mobile-img" src="./images/projects/4mobile.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/MacBook Pro 16.png" alt="">
+                    <h3>Testing online casino games</h3>
+                    <div class="slider-text">
+                        <p>
+                            I pushed for an add-on to be used on Jira.
+                            We decided to use Xray since it was usable for automation tests as well.
+                            Myself and the other colleague performing the manual testing started writing a regression pack to cover the entire application, using the Gherkin language, in this way, we helped the automation coverage as well.
+
+                        </p>
+                        <p>
+                            I was a QA part of a team. In this project I had to write Cucumber tests, we used Gherkin to write the tests.
+                            When I arrived, although there were other 2 testers, there wasn't any test plan written.
+                            
+                        </p>
+                        <p>
+                            One story or the regression was tested on: <br>
+                            - multiple operating systems,
+                            - multiple web browsers,
+                            - multiple mobile device operating systems,
+                            - multiple types of mobile devices,
+                            - multiple browsers on the mobile operating systems.
+                        </p>
+                    </div>
                     <a href="#">more</a>
                 </article>
                     
                 <article class="comandSlider__item">
-                    <img class="slider-img" src="./images/projects/megogo.png" width="100%" height="100%" alt="">
-                    <img class="mobile-img" src="./images/projects/1mobile.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/Surface Laptop Megogo.png" alt="">
+                    <h3>UI/UX testing for the site</h3>
+                    <div class="slider-text">
+                        <p>
+                            I tested the whole website on Android, iOS and Desktop and provided the issues in a well-mannered document file.
+                        </p>
+                    </div>
                     <a href="#">more</a>
                 </article>
 
                 <article class="comandSlider__item">
-                    <img class="slider-img" src="./images/projects/sql.png" width="100%" height="100%" alt="">
-                    <img class="mobile-img" src="./images/projects/2mobile.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/iMac 24 inch.png" alt="">
+                    <h3>My experience with SQL</h3>
+                    <div class="slider-text">
+                        <p>
+                            My task was to test SQL on the project. I worked with a lot of tables that were created for the project. I made queries to get data from different tables.
+                        </p>
+                    </div>
                     <a href="#">more</a>
                 </article>
 
                 <article class="comandSlider__item">
-                    <img class="slider-img" src="./images/projects/usability.png" width="100%" height="100%" alt="">
-                    <img class="mobile-img" src="./images/projects/3mobile.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/_ HP Elite Dragonfly.png" alt="">
+                    <h3>Usability testing</h3>
+                    <div class="slider-text">
+                        <p>
+                            My task was to test usability on a commercial website. I checked the site for its usability, looking at UI and UX and general standards for user experience. I also conducted testing on various desktop and mobile browsers and provided the results in the form of tickets in the Jira bug tracker.
+                        </p>
+                    </div>
                     <a href="#">more</a>
                 </article>
 
                 <article class="comandSlider__item">
-                    <img class="slider-img" src="./images/projects/api.png" width="100%" height="100%" alt="">
-                    <img class="mobile-img" src="./images/projects/4mobile.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/iMac 24 api.png" alt="">
+                    <h3>Testing of API of the web <br> applications</h3>
+                    <div class="slider-text">
+                        <p>
+                            My client needed to test the API and check the correctness of the data processing. I tested the API on the provided documentation using the Postman application. The result of the work was a bug report and a collection of requests in the exported json file.
+                        </p>
+                    </div>
                     <a href="#">more</a>
                 </article>
 
                 <article class="comandSlider__item">
-                    <img class="slider-img" src="./images/projects/commercial.png" width="100%" height="100%" alt="">
-                    <img class="mobile-img" src="./images/projects/1mobile.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/Commercial.png" alt="">
+                    <h3>Testing of the order process <br> of commercial website</h3>
+                    <div class="slider-text">
+                        <p>
+                            My task was testing the order process of the commercial website. I performed the testing on various desktop and mobile browsers and provided results as tickets in the Jira bug tracker.
+                        </p>
+                    </div>
                     <a href="#">more</a>
                 </article>
 
                 <article class="comandSlider__item">
-                    <img class="slider-img" src="./images/projects/mobile.png" width="100%" height="100%" alt="">
-                    <img class="mobile-img" src="./images/projects/2mobile.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/MacBoo_mobile.png" alt="">
+                    <h3>Mobile testing</h3>
+                    <div class="slider-text">
+                        <p>
+                            My client needed to test the shop application for mobile platforms. My duties was checking all features of application and creatiion detailed test report about found bugs. I provided the QA service which included UI/UX testing, functional testing and cross-OS testing.
+                        </p>
+                    </div>
                     <a href="#">more</a>
                 </article>
 
                 <article class="comandSlider__item">
-                    <img class="slider-img" src="./images/projects/security.png" width="100%" height="100%" alt="">
-                    <img class="mobile-img" src="./images/projects/3mobile.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/iPad Pro 2020.png" alt="">
+                    <h3>Monthly website security <br> review.</h3>
+                    <div class="slider-text">
+                        <p>
+                            My client needed to perform monthly security testing of four websitesusing various online security tools. I provided this service one time a month and sent detailed reports after each round of testing.
+                        </p>
+                    </div>
                     <a href="#">more</a>
                 </article>
 
                 <article class="comandSlider__item">
-                    <img class="slider-img" src="./images/projects/ios.png" width="100%" height="100%" alt="">
-                    <img class="mobile-img" src="./images/projects/4mobile.png" width="100%" height="100%" alt="">
+                    <img class="slider-img" src="./images/projects/iPhone 12 Pro (Wooden Hands).png" height="480px" alt="">
+                    <h3>Software testing of Web, IOS <br> and Android apps for online <br> marketplace.</h3>
+                    <div class="slider-text">
+                        <p>
+                            My client needed to check admin dashboard of web application of the market portal + web application, iOS applications and Android application. I performed functionality and UI testing and provided detailed test report as result of the work with description how to fix found bugs.
+                        </p>
+                    </div>
                     <a href="#">more</a>
                 </article>
             </div>
         </div>
 <!-- End projects -->
 
+<!-- Contact -->
         <div class="contact">
-            <h2>WANT TO GET ADVICE ON <br> YOUR PROJECT?</h2>
+            <div class="contact-title">
+                <h2>WANT TO GET ADVICE ON YOUR PROJECT?</h2>
+            </div>
             <a class="contact-btn" href="https://www.upwork.com/freelancers/~012092c7ad53e91f75">CONTACT ME</a>
         </div>
+<!-- End contact -->
 
 <!-- Tools -->
         <div class="tools">
-            <h2>TOOLS USED</h2>
-            <p>We use a wide range of technologies and tools. If you do not <br> know how best to implement your project - contact us and we <br> will be glad to consult you.</p>
+            <div class="tools-title">
+                <a name="tools">
+                    <h2>TOOLS USED</h2>
+                </a>
+            </div>
+            <div class="tools-text">
+                <p>
+                    We use a wide range of technologies and tools. If you do not know how best to implement your project - contact us and we will be glad to consult you.
+                </p>
+            </div>
             <section class="tools-section">
-                <div class="tools-image">
-                    <img src="./images/tools/VSC.png" alt="VSC">
-                    <img src="./images/tools/WS.png" alt="WS">
-                    <img class="figma-descktop" src="./images/tools/Figma.png" alt="Figma">
-                    <img src="./images/tools/githab.png" alt="githab">
-                    <img src="./images/tools/android.png" alt="android">
-                    <img src="./images/tools/jira.png" alt="jira">
+                <div class="tools-wrapper">
+                    <div class="tools-item">
+                        <img src="./images/tools/VSC.png" width="60px" height="60px" alt="VSC">
+                        <p>VS Code</p>
+                    </div>
+                    <div class="tools-item">
+                        <img src="./images/tools/WS.png" width="60px" height="60px" alt="WS">
+                        <p>WEBSTORM</p>
+                    </div>
+                    <div class="tools-item">
+                        <img class="figma-descktop" width="40px" height="60px" src="./images/tools/Figma.png" alt="Figma">
+                        <p>FIGMA</p>
+                    </div>
+                    <div class="tools-item">
+                        <img src="./images/tools/githab.png" width="60px" height="60px" alt="githab">
+                        <p>GITHAB</p>
+                    </div>
+                    <div class="tools-item">
+                        <img src="./images/tools/android.png" width="60px" height="60px" alt="android">
+                        <p>ANDROID STUDIO</p>
+                    </div>
+                    <div class="tools-item">
+                        <img src="./images/tools/jira.png" width="60px" height="60px" alt="jira">
+                        <p>JIRA</p>
+                    </div>
                 </div>
-                <div class="tools-image">
-                    <img src="./images/tools/trelo.png" alt="trello">
-                    <img src="./images/tools/asana.png" alt="asana">
-                    <img class="bugherd-descktop" src="./images/tools/bugherd.png" alt="bugherd">
-                    <img src="./images/tools/gitlab.png" alt="gitlab">
-                    <img src="./images/tools/clickUp.png" alt="clickUp">
+                <div class="tools-wrapper">
+                    <div class="tools-item">
+                        <img src="./images/tools/trelo.png" width="60px" height="60px" alt="trello">
+                        <p>Trello</p>
+                    </div>
+                    <div class="tools-item">
+                        <img src="./images/tools/asana.png" width="63px" height="60px" alt="asana">
+                        <p>Asana</p>
+                    </div>
+                    <div class="tools-item">
+                        <img class="bugherd-descktop" src="./images/tools/bugherd.png" width="178px" height="60px" alt="bugherd">
+                        <p>BugHerd</p>
+                    </div>
+                    <div class="tools-item">
+                        <img src="./images/tools/gitlab.png" width="65px" height="60px" alt="gitlab">
+                        <p>GitLab</p>
+                    </div>
+                    <div class="tools-item">
+                        <img src="./images/tools/clickUp.png" width="50px" height="60px" alt="clickUp">
+                        <p>ClickUp</p>
+                    </div>
                 </div>
-                <div class="tools-image">
-                    <img class="azure-descktop" src="./images/tools/DOAzure.png" alt="DOAzure">
-                    <img src="./images/tools/SHpoint.png" alt="SHpoint">
-                    <img src="./images/tools/basecamp.png" alt="basecamp">
-                    <img src="./images/tools/postman.png" alt="postman">
-                    <img src="./images/tools/swager.png" alt="swager">
-                    <img src="./images/tools/brawserstack.png" alt="brawserstack">
+                <div class="tools-wrapper">
+                    <div class="tools-item">
+                        <img class="azure-descktop" src="./images/tools/DOAzure.png" width="60px" height="60px" alt="DOAzure">
+                        <p>DevOps Azure</p>
+                    </div>
+                    <div class="tools-item">
+                        <img src="./images/tools/SHpoint.png" width="60px" height="60px" alt="SHpoint">
+                        <p>SharePoint</p>
+                    </div>
+                    <div class="tools-item">
+                        <img src="./images/tools/basecamp.png" width="60px" height="60px" alt="basecamp">
+                        <p>Basecamp</p>
+                    </div>
+                    <div class="tools-item">
+                        <img src="./images/tools/postman.png" width="60px" height="60px" alt="postman">
+                        <p>Postman</p>
+                    </div>
+                    <div class="tools-item">
+                        <img src="./images/tools/swager.png" width="60px" height="60px" alt="swager">
+                        <p>Swagger</p>
+                    </div>
+                    <div class="tools-item">
+                        <img src="./images/tools/brawserstack.png" width="60px" height="60px" alt="brawserstack">
+                        <p>Browser Stack</p>
+                    </div>   
                 </div>
-                <div class="tools-image">
-                    <img src="./images/tools/AdobeXD.png" alt="AdobeXD">
-                    <img src="./images/tools/inVision.png" alt="inVision">
-                    <img src="./images/tools/X-ray-jira.png" alt="X-ray-jira">
-                    <img src="./images/tools/testrall.png" alt="testrall">
-                    <img src="./images/tools/rainforest.png" alt="rainforest">
+                <div class="tools-wrapper">
+                    <div class="tools-item">
+                        <img src="./images/tools/AdobeXD.png" width="60px" height="60px" alt="AdobeXD">
+                        <p>AdobeXD</p>
+                    </div>
+                    <div class="tools-item">
+                        <img src="./images/tools/inVision.png" width="60px" height="60px" alt="inVision">
+                        <p>InVision</p>
+                    </div>
+                    <div class="tools-item">
+                        <img src="./images/tools/X-ray-jira.png" width="28px" height="60px" alt="X-ray-jira">
+                        <p>XRay for JIRA</p>
+                    </div>
+                    <div class="tools-item">
+                        <img src="./images/tools/testrall.png" width="60px" height="60px" alt="testrall">
+                        <p>TestRail</p>
+                    </div>
+                    <div class="tools-item">
+                        <img src="./images/tools/rainforest.png" width="60px" height="60px" alt="rainforest">
+                        <p>Rainforest</p>
+                    </div>
                 </div>
             </section>
             <div class="mobile-images">
@@ -344,21 +540,27 @@
                 <img class="azure-mobile" src="./images/tools/DOAzure.png" alt="DOAzure">
                 <img class="figma-mobilep" src="./images/tools/Figma.png" alt="Figma">
             </div>
-
-
-        </div>
+        </div> 
         <!-- End tools -->
     </main>
 <!-- End main -->
 
 <!-- Footer -->
-    <footer class="footer">
-        <h2>Rostyslav <br> Soroka</h2>
+    <footer  class="footer">
+        <div class="footer-title">
+            <a name="footer">
+                <h2>Rostyslav Soroka</h2>
+            </a>
+        </div>
         <div class="footer-nav">
-            <a href="#">About ME</a>
-            <a href="#">Recent Project</a>
-            <a href="#">MY SKILLS</a>
-            <a href="#">Our Tools</a>
+            <a href="#about">About ME</a>
+            <a href="#projects">Recent Project</a>
+            <a href="#skills">MY SKILLS</a>
+            <a href="#tools">Our Tools</a>
+        </div>
+        <div class="arrow-up">
+            <button><a href="#header"><img src="./images/arrow.png" width="100px"
+                height="100px" alt="arrow up"></a></button>
         </div>
     </footer>
 
@@ -385,6 +587,32 @@
             ]
         });
     </script>
-
+    
+    <script>
+        const burgerMenu = document.getElementById('burger-menu');
+        const overlay = document.getElementById('menu');
+            burgerMenu.addEventListener('click', function() {
+            this.classList.toggle("close");
+            overlay.classList.toggle("overlay");
+            });
+            overlay.addEventListener('click', function(e) {
+            if (e.target.matches('a')) {
+                overlay.classList.remove('overlay');
+                burgerMenu.classList.remove('close');
+            }  
+        });
+    </script>
+<!-- <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class="menu__box">
+                <li><a href="#about" class="menu__item">About ME</a></li>
+                <li><a href="#projects" class="menu__item">Recent Project</a></li>
+                <li><a href="#skills" class="menu__item">MY SKILLS</a></li>
+                <li><a href="#tools" class="menu__item">Our Tools</a></li>
+            </ul>
+        </div> -->
 </body>
 </html>

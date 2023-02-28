@@ -4,18 +4,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
+    overflow-x: hidden;
 }
 
 .about {
+    position: relative;
     margin-top: 239px;
-    width: 90%;
-    height: 990px;
+    width: 80%;
+    height: 51%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.about h2 {
+.about-title {
+    position: relative;
+    width: 100%;
+    height: 5%;
     font-family: 'Kharkiv Tone', sans-serif;
     font-weight: 400;
     font-size: 64px;
@@ -24,6 +30,7 @@
     background-image: linear-gradient(99.73deg, #9747FF 0.42%, #5A77F6 109.59%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 .about-info {
@@ -31,27 +38,25 @@
     height: 805px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 120px;
     font-family: 'Montserrat', sans-serif;
-}
-
-.about-info p {
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
-    text-transform: capitalize;
 }
 
 .user {
+    width: 38%;
+    height: 43%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 5%;
 }
 
 .lenguage {
-    width: 224px;
-    height: 38px;
+    width: 50%;
+    height: 7%;
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
@@ -60,36 +65,43 @@
     line-height: 29px;
     color: white;
 }
+.lenguage-flag {
+    width: 34%;
+    display: flex;
+    justify-content: space-between;
+}
 
 .about-text {
-    width: 80%;
-    height: 805px;
+    width: 70%;
+    height: 800px;
     display: flex;
     flex-direction: column;
     color: white;
 }
 
-.about-epam {
-    width: 784px;
-    height: 455px;
+.about-user {
+    width: 100%;
+    height: 58%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .epam-adaptive {
     display: none;
 }
 
-.left-text {
-    width: 446px;
-    height: 455px;
+.top-text {
+    width: 100%;
+    height: 18%;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.about-user {
+.user-text p {
+    width: 57%;
+    height: 18%;
     color: #A8A8A8;
 }
 
@@ -97,18 +109,30 @@ b {
     color: white;
 }
 
-.right-text {
-    width: 338px;
+.middle-text {
+    width: 100%;
     height: 326px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 44px;
+}
+.middle-text p {
+    width: 44%;
+    height: 22%;
+    display: flex;
     align-items: center;
 }
 
+.bottom-text {
+    width: 55%;
+    height: 11%;
+    margin-top: 5px;
+}
+
 .about-check {
-    width: 784px;
-    height: 185px;
+    width: 100%;
+    height: 24%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -116,19 +140,14 @@ b {
 }
 
 .check {
-    width: 100%;
+    width: 95%;
+    height: 8%;
     display: flex;
+    align-items: center;
 }
 
 .check img {
     margin-right: 3%;
-}
-
-.check p {
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
 }
 
 .about-footer {
@@ -153,12 +172,4 @@ b {
     display: flex;
     align-items: center;
 }
-
-.footer-check p {
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-}
-
 

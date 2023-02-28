@@ -1,11 +1,14 @@
 body {
+    width: 100%;
     font-family: 'Goldman', cursive;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Kharkiv Tone', sans-serif;
     background-color: black;
+    overflow-x: hidden;
 }
 
 .header {
+    position: relative;
     width: 100%;
     height: 1080px;
     background-position: center;
@@ -13,13 +16,14 @@ body {
     background-size: cover;
     display: flex;
     flex-direction: column;
+    align-items: center;
     font-family: 'Kharkiv Tone', sans-serif;
     text-transform: uppercase;
-    padding-left: 16%;
 }
 
 .header-nav {
-    width: 90%;
+    position: relative;
+    width: 70%;
     height: 52px;
     margin-top: 40px;
     color: white;
@@ -28,6 +32,8 @@ body {
 }
 
 .nav-left {
+    width: 177px;
+    height: 52px;
     font-weight: 400;
     font-size: 24px;
     line-height: 26px;
@@ -44,30 +50,32 @@ body {
     opacity: .75;
 }
 
-.left {
+.nav-right1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
-.right {
+.nav-right2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .header-info {
-    width: 72%;
+    position: relative;
+    width: 64%;
     height: 629px;
     margin-top: 238px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    left: -3%;
 }
-
+ 
 .header-title {
+    width: 83%;
+    height: 291px;
     font-weight: 400;
     font-size: 96px;
     line-height: 97px;
@@ -80,10 +88,11 @@ body {
     display: flex;
     justify-content: space-between;
     color: white;
+    align-items: center;
 }
 
 .wrapper {
-    width: 85%;
+    width: 78%;
     display: flex;
     justify-content: space-between;
 }
@@ -107,8 +116,21 @@ body {
     text-transform: none;
 }
 .arrow-down {
+    position: absolute;
+    width: 65px;
+    height: 92px;
     display: flex;
-    align-items: center;
+    bottom: 200px;
+    right: 40px;
+    cursor: pointer;
+    transform: rotate(180deg);
+    opacity: 0.6;
+}
+.arrow-down button {
+    background: none;
+}
+.arrow-down:hover {
+    opacity: 1;
 }
 
 h4 {
@@ -117,4 +139,5 @@ h4 {
     line-height: 48px;
     font-family: 'Kharkiv Tone', sans-serif;
 }
+
 

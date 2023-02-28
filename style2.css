@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+.slider {
+    width: 80%;
+    display: flex;
+}
+
+.slider__item {
+    width: 45%;
+}
+
+.slick-arrow {
+
+    position: absolute;
+        background-image: url(../images/projects/right.png);
+
+}

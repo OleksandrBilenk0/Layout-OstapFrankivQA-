@@ -1,6 +1,7 @@
 .tools {
-    width: 90%;
-    height: 845px;
+    position: relative;
+    width: 70%;
+    height: 44%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +9,8 @@
     margin-top: 294px;
 }
 
-.tools h2 {
+.tools-title {
+    width: 100%;
     font-family: 'Kharkiv Tone', sans-serif;
     font-weight: 400;
     font-size: 64px;
@@ -20,14 +22,15 @@
     text-transform: uppercase;
 }
 
-.tools p {
+.tools-text {
+    width: 37%;
+    height: 5%;
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
     margin-top: 40px;
-    margin-bottom: 120px;
 }
 
 .tools-section {
@@ -35,12 +38,31 @@
     height: 560px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 120px;
 }
 
-.tools-image {
+.tools-wrapper {
+    height: 110px;
     display: flex;
     justify-content: space-between;
+}
+
+.tools-item {
+    width: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
 }
 
 .mobile-images {

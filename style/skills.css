@@ -1,13 +1,25 @@
+.main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    overflow-x: hidden;
+}
 .skills {
-    width: 83%;
-    height: 1034px;
+    position: relative;
+    width: 70%;
+    height: 54%;
     margin-top: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
+    overflow-x: hidden;
 }
 
-.skills h2 {
+.skills-title {
     font-family: 'Kharkiv Tone';
     font-style: normal;
     font-weight: 400;
@@ -21,17 +33,20 @@
 
 .skills-items {
     width: 100%;
-    height: 849px;
+    height: 44%;
     margin-top: 120px;
 }
 
 .skills-circles {
+    width: 100%;
+    height: 30%;
     display: flex;
     justify-content: space-between;
 }
 
 .experience {
     width: 100%;
+    height: 24%;
     margin-top: 120px;
     display: flex;
     flex-direction: column;

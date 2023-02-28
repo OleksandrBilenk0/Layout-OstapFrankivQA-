@@ -13,12 +13,14 @@
     margin-top: -96px;
 }
 
-.footer h2 {
+.footer-title {
+    position: relative;
+    width: 521px;
+    height: 7%;
     display: flex;
     align-items: center;
     text-align: center;
     margin-top: 376px;
-    margin-bottom: 120px;
     font-weight: 400;
     font-size: 64px;
     line-height: 65px;
@@ -27,15 +29,27 @@
 }
 
 .footer-nav {
-    width: 40%;
-    height: 37px;
+    width: 680px;
+    height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 120px;
     font-weight: 400;
     font-size: 14px;
     line-height: 14px;
     text-transform: uppercase;
     color: #A8A8A8;
     opacity: 0.75;
+}
+
+.arrow-up {
+    margin-top: 120px;
+    opacity: 0.6;
+}
+.arrow-up:hover {
+    opacity: 1;
+}
+.arrow-up button{
+    background: none;
 }
