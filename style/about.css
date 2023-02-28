@@ -10,8 +10,8 @@
 
 .about {
     position: relative;
-    margin-top: 239px;
-    width: 80%;
+    margin-top: 12%;
+    width: 1360px;
     height: 51%;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@
 .about-title {
     position: relative;
     width: 100%;
-    height: 5%;
+    height: 65px;
     font-family: 'Kharkiv Tone', sans-serif;
     font-weight: 400;
     font-size: 64px;
@@ -34,7 +34,8 @@
 }
 
 .about-info {
-    width: 100%;
+    position: relative;
+    width: 1360px;
     height: 805px;
     display: flex;
     align-items: center;
@@ -47,8 +48,8 @@
 }
 
 .user {
-    width: 38%;
-    height: 43%;
+    width: 512px;
+    height: 590px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,6 +60,7 @@
     height: 7%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 40px;
     font-weight: 400;
     font-size: 24px;
@@ -72,7 +74,7 @@
 }
 
 .about-text {
-    width: 70%;
+    width: 790px;
     height: 800px;
     display: flex;
     flex-direction: column;
@@ -80,8 +82,8 @@
 }
 
 .about-user {
-    width: 100%;
-    height: 58%;
+    width: 790px;
+    height: 455px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -92,16 +94,16 @@
 }
 
 .top-text {
-    width: 100%;
-    height: 18%;
+    width: 80%;
+    height: 145px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .user-text p {
-    width: 57%;
-    height: 18%;
+    width: 446px;
+    height: 145px;
     color: #A8A8A8;
 }
 

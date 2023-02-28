@@ -117,8 +117,6 @@ body {
 }
 .arrow-down {
     position: absolute;
-    width: 65px;
-    height: 92px;
     display: flex;
     bottom: 200px;
     right: 40px;

@@ -3,10 +3,10 @@
   height: 33px;
   width: 33px;
   overflow: visible;
-  position: fixed;
+  position: absolute;
   z-index: 99;
   right: 63px;
-  top: 63px;
+  top: 40px;
 }
 
 #burger-menu span,

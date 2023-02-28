@@ -1,6 +1,276 @@
 #burger-menu {
-    display: none !important;
+    display: none;
 }
-@media (max-width: 1440px) {
 
+@media (max-width: 1440px) {
+    .about {
+        width: 1100px;
+    }
+    .about-info {
+        width: 1100px;
+    }
+    .about-text {
+        width: 650px;
+    }
+    .about-user {
+        width: 650px;
+    }
+
+    .user-photo {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header  {
+        height: 900px;
+    }
+    .header-info {
+        margin-top: 140px;
+    }
+    .header-title {
+        width: 100%;
+        height: 291px;
+        text-align: center;
+        font-size: 76px;
+        line-height: 77px;
+    }
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .circle {
+        width: 180px;
+        height: 180px;
+    }
+    .arrow-down {
+        bottom: 100px;
+    }
+
+    /* About */
+    .about-info {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .about {
+        width: 900px;
+    }
+    .about-info {
+        width: 900px;
+    }
+    .lenguage {
+        width: 70%;
+    }
+    .lenguage-flag {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-check {
+        width: 600px;
+    }
+    .check {
+        width: 600px;
+        height: 80px;
+    }
+    .about-footer {
+        width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-right {
+        display: none;
+    }
+    #burger-menu {
+        display: flex;
+    }
+    .header-info {
+        margin-top: 140px;
+        height: 550px;
+    }
+    .header-title {
+        width: 100%;
+        height: 291px;
+        text-align: center;
+        font-size: 66px;
+        line-height: 67px;
+    }
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .circle {
+        width: 150px;
+        height: 150px;
+    }
+    .arrow-down {
+        bottom: 190px;
+    }
+    .arrow-down img{
+        width: 80px;
+        height: 80px;
+    }
+
+    /* About */
+    .about {
+        width: 650px;
+    }
+    .about-info {
+        width: 650px;
+        height: 580px;
+        font-size: 18px;
+        line-height: 19px;
+        margin-top: 80px;
+    }
+    .user {
+        width: 200px;
+        height: 260px;
+    }
+    .about {
+        width: 650px;
+        height: 760px;
+    }
+    
+    .user-photo {
+        width: 200px;
+        height: 200px;
+    }
+    .lenguage {
+        width: 70%;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .lenguage-flag {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .lenguage-flag img {
+        width: 20px;
+        height: 20px;
+    }
+    .about-text {
+        width: 400px;
+        height: 580px;
+    }
+    .about-user {
+        width: 400px;
+        height: 340px;
+    }
+    .top-text {
+        width: 67%;
+    }
+    .user-text p {
+        width: 300px;
+        height: 120px;
+        color: #A8A8A8;
+    }
+    .middle-text {
+        width: 400px;
+        height: 140px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .middle-text p {
+        width: 60%;
+        height: 22%;
+        display: flex;
+        align-items: center;
+    }
+    .about-check {
+        width: 400px;
+        height: 160px;
+        margin-top: 20px;
+    }
+    .check {
+        width: 400px;
+        height: 70px;
+    }
+    .about-footer {
+        width: 400px;
+    }
+
+    .footer-check img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Skills */
+    .skills {
+        height: 600px;
+        margin-top: 150px;
+    }
+    .skills-circles {
+        height: 33%;
+    }
+    .experience {
+        height: 250px;
+        margin-top: 20px;
+    }
+    .experience-item {
+        height: 100px;
+    }
+    .experience-item p{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .skills-items {
+        height: 500px;
+        margin-top: 80px;
+    }
+
+    /* Projects */
+    .projects {
+        margin-top: 140px;
+    }
+    .slick-track {
+        margin-top: 50px;
+    }
+    .slick-list {
+        height: 980px;
+    }
+
+    /* Contact */
+    .contact {
+        margin-top: 150px;
+        font-size: 54px;
+        line-height: 55px;
+    }
+
+    /* Tools */
+    .tools-text {
+        width: 450px;
+    }
+    .tools-item p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .tools-item.bugherd-descktop {
+        position: absolute;
+        top: 200px;
+        left: 230px;
+    }
+    .tools-section {
+        height: 450px;
+        margin-top: 150px;
+    }
+    .tools-wrapper {
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Footer */
+    .footer-nav {
+        height: 200px;
+        flex-direction: column;
+    }
+    .arrow-up {
+        margin-top: 80px;
+    }
 }
