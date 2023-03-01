@@ -2,6 +2,10 @@
     display: none;
 }
 
+.tarkikComandSlider.mobile {
+    display: none;
+}
+
 @media (max-width: 1440px) {
     .about {
         width: 1100px;
@@ -79,44 +83,14 @@
     }
 }
 
-@media (max-width: 768px) {
-    .nav-right {
-        display: none;
-    }
-    #burger-menu {
-        display: flex;
-    }
-    .header-info {
-        margin-top: 140px;
-        height: 550px;
-    }
-    .header-title {
-        width: 100%;
-        height: 291px;
-        text-align: center;
-        font-size: 66px;
-        line-height: 67px;
-    }
-    .wrapper {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .circle {
-        width: 150px;
-        height: 150px;
-    }
-    .arrow-down {
-        bottom: 190px;
-    }
-    .arrow-down img{
-        width: 80px;
-        height: 80px;
-    }
-
+@media (max-width: 1000px) {
     /* About */
+    .main {
+        overflow: hidden;
+    }
     .about {
         width: 650px;
+        height: 780px;
     }
     .about-info {
         width: 650px;
@@ -128,10 +102,6 @@
     .user {
         width: 200px;
         height: 260px;
-    }
-    .about {
-        width: 650px;
-        height: 760px;
     }
     
     .user-photo {
@@ -199,6 +169,67 @@
         width: 20px;
         height: 20px;
     }
+}
+
+@media (max-width: 890px) {
+    /* Tools */
+    .tools-text {
+        width: 450px;
+    }
+    .tools-item p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .tools-item.bugherd-descktop {
+        position: absolute;
+        top: 26%;
+        left: 40%;
+    }
+    .tools-section {
+        height: 450px;
+        margin-top: 150px;
+    }
+    .tools-wrapper {
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-right {
+        display: none;
+    }
+    #burger-menu {
+        display: flex;
+    }
+    .header-info {
+        margin-top: 140px;
+        height: 550px;
+    }
+    .header-title {
+        width: 100%;
+        height: 291px;
+        text-align: center;
+        font-size: 66px;
+        line-height: 67px;
+    }
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .circle {
+        width: 150px;
+        height: 150px;
+    }
+    .arrow-down {
+        bottom: 190px;
+    }
+    .arrow-down img{
+        width: 80px;
+        height: 80px;
+    }
 
     /* Skills */
     .skills {
@@ -242,29 +273,6 @@
         line-height: 55px;
     }
 
-    /* Tools */
-    .tools-text {
-        width: 450px;
-    }
-    .tools-item p {
-        font-size: 14px;
-        line-height: 16px;
-    }
-    .tools-item.bugherd-descktop {
-        position: absolute;
-        top: 200px;
-        left: 230px;
-    }
-    .tools-section {
-        height: 450px;
-        margin-top: 150px;
-    }
-    .tools-wrapper {
-        height: 90px;
-        display: flex;
-        justify-content: space-between;
-    }
-
     /* Footer */
     .footer-nav {
         height: 200px;
@@ -273,4 +281,104 @@
     .arrow-up {
         margin-top: 80px;
     }
+}
+
+@media (max-width: 730px) {
+    /* Headr */
+    .circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .centered h4 {
+        font-size: 36px;
+    }
+    .centered {
+        font-size: 12px;
+        line-height: 9px;
+    }
+
+    /* About */
+    .about {
+        width: 650px;
+        height: 1000px;
+    }
+    .about-info {
+        flex-direction: column; 
+    }
+
+    /* Slider */
+    .tarkikComandSlider.desktop{
+        display: none !important;
+    }
+    
+    .tarkikComandSlider.mobile {
+        display: block;
+    }
+    .slider-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .slick-dots {
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 704px) {
+    .header-title {
+        font-size: 60px;
+    }
+    .about-title {
+        font-size: 48px;
+    }
+    .skills-title {
+        font-size: 48px;
+    }
+    .projects_title {
+        font-size: 48px;
+    }
+    .contact-title {
+        font-size: 48px;
+    }
+    .tools-title {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 680px) {
+    .header {
+        height: 960px;   
+    }
+    .header-title {
+        font-size: 50px;
+    }
+    .header-info {
+        height: 750px;
+        margin-top: 80px;
+    }
+    .statistyc {
+        height: 500px;
+    }
+    .wrapper {
+        width: 150px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .circle {
+        width: 150px;
+        height: 150px;
+    }
+    .arrow-down {
+        position: absolute;
+        display: flex;
+        bottom: 40px;
+        right: 40px;
+        cursor: pointer;
+        transform: rotate(180deg);
+        opacity: 0.6;
+    }
+
+    /* Tools */
 }
