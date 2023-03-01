@@ -7,6 +7,10 @@
 }
 
 @media (max-width: 1440px) {
+    .header-info {
+        width: 900px;
+    }
+    /* About */
     .about {
         width: 1100px;
     }
@@ -25,25 +29,91 @@
     }
 }
 
+@media (max-width: 1360px) {
+    .skills-circles .circle{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .comandSlider__item::before {
+        margin: 0px 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #burger-menu {
+        display: flex;
+    }
+    .nav-right {
+        display: none;
+    }
+    
+    .header  {
+        height: 1000px;
+    }
+    .header-info {
+        width: 800px;
+
+        margin-top: 140px;
+    }
+    .header-title {
+        width: 850px;
+        text-align: center;
+        margin-left: -60px;
+    }
+    .wrapper {
+        width: 90%;
+    }
+
+    /* Slider */
+    .slick-slider .comandSlider__item{
+        padding: 40px 180px 0px;
+    }
+    .comandSlider__item::before {
+        margin: 0px 150px;
+    }
+}
+
+@media (max-width: 1130px) {
+    .skills-circles .circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Tools */
+    .tools-section {
+        width: 110%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .comandSlider__item::before {
+        margin: 0px 100px;
+    }
+}
+
 @media (max-width: 1024px) {
     .header  {
         height: 900px;
     }
     .header-info {
         margin-top: 140px;
+        align-items: center;
     }
     .header-title {
         width: 100%;
         height: 291px;
-        text-align: center;
         font-size: 76px;
         line-height: 77px;
     }
     .wrapper {
-        width: 100%;
+        width: 80%;
         display: flex;
         justify-content: space-between;
     }
+    
     .circle {
         width: 180px;
         height: 180px;
@@ -84,6 +154,17 @@
 }
 
 @media (max-width: 1000px) {
+    /* Header */
+    .header {
+        height: 1000px;
+    }
+    .wrapper {
+        width: 88%;
+    }
+    .arrow-down {
+        bottom: 0px;
+        right: 45%;
+    }
     /* About */
     .main {
         overflow: hidden;
@@ -169,6 +250,16 @@
         width: 20px;
         height: 20px;
     }
+    /* Tools */
+    .tools-section {
+        width: 120%;
+    }
+}
+
+@media (max-width: 950px) {
+    .header-info {
+        width: 680px;
+    }
 }
 
 @media (max-width: 890px) {
@@ -194,15 +285,17 @@
         display: flex;
         justify-content: space-between;
     }
+
+    /* Skills */
+    .slick-slider .comandSlider__item{
+        padding: 40px 20px 0px;
+    }
+    .comandSlider__item::before {
+        margin: 0px 50px;
+    }
 }
 
 @media (max-width: 768px) {
-    .nav-right {
-        display: none;
-    }
-    #burger-menu {
-        display: flex;
-    }
     .header-info {
         margin-top: 140px;
         height: 550px;

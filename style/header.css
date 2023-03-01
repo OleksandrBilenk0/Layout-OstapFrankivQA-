@@ -62,19 +62,22 @@ body {
     justify-content: space-between;
 }
 
+.info-wrapper {
+    width: 70%;
+}
+
 .header-info {
     position: relative;
-    width: 64%;
+    width: 1025px;
     height: 629px;
     margin-top: 238px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    left: -3%;
 }
  
 .header-title {
-    width: 83%;
+    width: 1025px;
     height: 291px;
     font-weight: 400;
     font-size: 96px;
@@ -92,7 +95,7 @@ body {
 }
 
 .wrapper {
-    width: 78%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -118,7 +121,7 @@ body {
 .arrow-down {
     position: absolute;
     display: flex;
-    bottom: 200px;
+    bottom: 180px;
     right: 40px;
     cursor: pointer;
     transform: rotate(180deg);
