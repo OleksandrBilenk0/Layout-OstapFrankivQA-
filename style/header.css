@@ -86,8 +86,8 @@ body {
 }
 
 .statistyc {
-    width: 100%;
-    height: 218px;
+    width: 1230px;
+    height: 220px;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -95,7 +95,7 @@ body {
 }
 
 .wrapper {
-    width: 100%;
+    width: 955px;
     display: flex;
     justify-content: space-between;
 }
@@ -119,10 +119,8 @@ body {
     text-transform: none;
 }
 .arrow-down {
-    position: absolute;
+    position: relative;
     display: flex;
-    bottom: 180px;
-    right: 40px;
     cursor: pointer;
     transform: rotate(180deg);
     opacity: 0.6;
