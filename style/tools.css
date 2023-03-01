@@ -63,3 +63,7 @@
     line-height: 20px;
     color: white;
 }
+
+.tools-mobile {
+    display: none;
+}

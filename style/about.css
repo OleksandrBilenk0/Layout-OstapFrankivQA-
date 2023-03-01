@@ -1,6 +1,5 @@
 .main {
     width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,8 +8,8 @@
 }
 
 .about {
-    position: relative;
-    margin-top: 12%;
+    margin-top: 239px;
+    /* 12% */
     width: 1360px;
     height: 51%;
     display: flex;
@@ -87,10 +86,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-}
-
-.epam-adaptive {
-    display: none;
 }
 
 .top-text {

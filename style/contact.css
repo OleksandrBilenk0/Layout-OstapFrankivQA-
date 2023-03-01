@@ -7,6 +7,11 @@
     align-items: center;
     text-align: center;
     justify-content: space-between;
+}
+
+.contact-title {
+    width: 90%;
+    height: 10%;
     font-family: 'Kharkiv Tone';
     font-weight: 400;
     font-size: 64px;
@@ -15,11 +20,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-}
-
-.contact-title {
-    width: 90%;
-    height: 10%;
 }
 
 .contact-btn {
