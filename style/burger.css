@@ -88,7 +88,6 @@
   visibility: hidden;
   opacity: 1;
   text-align: center;
-  padding-top: 50px;
   -webkit-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -106,19 +105,32 @@
 }
 
 #menu ul {
-  margin-top: 200px;
+  margin-top: 300px;
   width: 100%;
+  height: 300px;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #menu a {
-  color: #fff;
-  font-family: "Century Gothic";
   display: block;
   font-size: 32px;
   margin-bottom: 30px;
   text-decoration: none;
-  background: none
+  background: none;
+
+  font-family: 'Kharkiv Tone';
+  font-weight: 400;
+  line-height: 16px;
+  color: #fff;
+}
+
+#burger-menu.close span{
+  
+  right: 63px !important;
+  top: 60px !important;
 }
